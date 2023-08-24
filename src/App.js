@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p class={"text-green-50"}>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
