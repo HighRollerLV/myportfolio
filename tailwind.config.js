@@ -5,10 +5,16 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '18': '4.5rem',
+      },
+      width: {
+        '18': '4.5rem',
+      },
+    },
   },
   plugins: [
-    require('flowbite/plugin')
   ],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
