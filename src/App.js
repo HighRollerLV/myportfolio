@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import SidebarItem from './components/SidebarItem';
 import SectionTitle from './components/SectionTitle';
@@ -16,6 +16,13 @@ import {
     UilUserSquare
 } from '@iconscout/react-unicons';
 
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Education from './components/pages/Education';
+import Experience from './components/pages/Experience';
+import Projects from './components/pages/Projects';
+import Timeline from './components/pages/Timeline';
+import Contact from './components/pages/Contact';
 
 const App = () => {
     return (
@@ -42,10 +49,10 @@ const App = () => {
 
                     {/* Media Section */}
                     <SectionTitle sectionName="Media" />
-                    <SidebarItem icon={<UilLinkedin />} text="LinkedIn" />
-                    <SidebarItem icon={<UilInstagram />} text="Instagram" />
-                    <SidebarItem icon={<UilFacebook />} text="Facebook" />
-                    <SidebarItem icon={<UilTwitter />} text="Twitter" />
+                    <SidebarItem icon={<UilLinkedin />} text="LinkedIn" link="https://www.linkedin.com/in/ralfs-dambitis-880369264/" />
+                    <SidebarItem icon={<UilInstagram />} text="Instagram" link="https://www.instagram.com/ralfs_d/" />
+                    <SidebarItem icon={<UilFacebook />} text="Facebook" link="https://www.facebook.com/ralfs.dambitis" />
+                    <SidebarItem icon={<UilTwitter />} text="Twitter" link="https://twitter.com/RalfsDambitis" />
                 </ul>
             </div>
         </div>
