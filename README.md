@@ -10,7 +10,7 @@
 - [x] Connect icons to the project
 - [x] Create a media folder for images and videos
 - [x] Create a components folder for components
-- [ ] Create a pages folder for pages
+- [x] Create a pages folder for pages
 - [ ] Make the page responsive
 - [ ] Include a `favicon.ico` file
 - [ ] Include resume
@@ -22,7 +22,7 @@
     - #### Sidebar Contents  - 
         - [ ] Create main sections
         - [x] Create sub-sections
-        - [ ] Create links to pages
+        - [x] Create links to pages
       - #### Main Sections  -
           - [x] All of the sections are covered by My Portfolio
           - [x] Main
