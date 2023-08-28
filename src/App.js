@@ -32,7 +32,7 @@ const App = () => {
                 <Sidebar/>
                 <div className="overflow-y-auto overflow-x-hidden flex-grow">
                     <ul className="flex flex-col py-4 space-y-1">
-                        <SectionTitle sectionName="MyPortfolio"/>
+                        <SectionTitle sectionName=""/>
                         {/* Main Section */}
                         <SectionTitle sectionName="Main"/>
                         <SidebarItem icon={<UilEstate/>} text="Home" to="/"/>

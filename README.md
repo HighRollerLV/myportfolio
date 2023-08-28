@@ -20,7 +20,7 @@
     - [x] Create a Sidebar Navigation
     - [ ] Create a Sidebar Navigation for all devices
     - #### Sidebar Contents  - 
-        - [ ] Create main sections
+        - [x] Create main sections
         - [x] Create sub-sections
         - [x] Create links to pages
       - #### Main Sections  -
