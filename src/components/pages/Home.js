@@ -19,7 +19,7 @@ const Home = () => {
             <img
                 src="/media/profileImg.png"
                 alt="Ralfs Dambītis"
-                className="w-80 h-96 rounded-full mb-4 bg-gradient-to-r from-gray-300 to-gray-600 background-animate shadow-2xl"
+                className="w-96 h-96 rounded-full mb-4 bg-gradient-to-r from-gray-300 to-gray-600 background-animate shadow-2xl object-cover object-top"
             />
         </div>
     );
