@@ -23,7 +23,7 @@ const Projects = () => {
                                  of projects, experiences, and skills. This portfolio allows me to curate and showcase
                                  the best of what I've accomplished, giving others a comprehensive
                                  view of my capabilities."
-                                 ProjectGoal="Providing a comprehensive overview of my capabilities."/>
+                                 ProjectGoal="Showcase a comprehensive overview of my capabilities."/>
                 </div>
             </div>
         </div>

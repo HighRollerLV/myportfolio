@@ -43,8 +43,14 @@
           - [x] Twitter
   - #### Pages  -
   - [ ] Create Pages for each section
-  - #### Footer  -
-  - [ ] Create a Footer
+    - #### Pages  -
+    - [x] Home
+    - [x] About
+    - [x] Education
+    - [x] Projects
+    - [x] Experience
+    - [ ] Timeline
+    - [x] Contact
 - ### Final  -
   - [ ] Send to Lapsins
   - [ ] Turn the project/githbu repository to public
