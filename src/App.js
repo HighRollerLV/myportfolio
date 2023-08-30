@@ -14,17 +14,17 @@ const App = () => {
     return (
         <Router>
             <div className="flex flex-col md:flex-row min-h-screen">
-                <Sidebar />
+                <Sidebar/>
 
                 <main className="flex-1 bg-gray-50 text-gray-800">
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/education" element={<Education />} />
-                        <Route path="/experience" element={<Experience />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/timeline" element={<Timeline />} />
-                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="/education" element={<Education/>}/>
+                        <Route path="/experience" element={<Experience/>}/>
+                        <Route path="/projects" element={<Projects/>}/>
+                        <Route path="/timeline" element={<Timeline/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
                     </Routes>
                 </main>
             </div>
