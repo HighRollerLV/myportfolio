@@ -7,22 +7,23 @@ import {
     UilPen,
     UilStar,
     UilPlus,
+    UilGraduationCap,
 } from '@iconscout/react-unicons';
 
 
 const Timeline = () => {
     return (
         <div className="min-h-screen bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate">
-            <div className="container mx-auto">
-                <div className="relative h-full justify-center items-center flex">
+            <div className="container mx-auto flex justify-center items-center">
+                <div className="relative h-full w-11/12 md:w-9/12 lg:w-3/6 justify-center items-center flex">
                     {/* Vertical line */}
                     <div
                         className="absolute bg-gradient-to-l from-slate-300 to-gray-500 background-animate
-                        h-full w-12 shadow-2xl left-1/2 top-0 transform -translate-x-1/2">
+                        h-full w-12 shadow-2xl">
                     </div>
 
                     {/* Timeline items */}
-                    <div className="flex flex-col justify-between items-start pl-10 pr-4 py-4 gap-6">
+                    <div className="flex flex-col pl-10 pr-4 py-4 gap-6">
                         <TimelineData
                             YearFrom="2018"
                             YearTo="- 2019"
@@ -36,7 +37,7 @@ const Timeline = () => {
                             Subject="Finished Middle School"
                             Description="Finished Middle School in DACVĢ"
                             index={2}
-                            Icon={<UilUniversity />}
+                            Icon={<UilGraduationCap />}
                         />
                         <TimelineData
                             YearFrom="2019"
@@ -70,14 +71,14 @@ const Timeline = () => {
                         />
                         <TimelineData
                             YearFrom="2022"
-                            Subject="Started Learning TailwindCSS"
-                            Description="Started leaning TailwindCSS for personal use"
+                            Subject="TailwindCSS"
+                            Description="Started learning TailwindCSS for personal use"
                             index={7}
                             Icon={<UilPlus  />}
                         />
                         <TimelineData2
                             YearFrom="2022"
-                            Subject="Started learning Javascript"
+                            Subject="Javascript"
                             Description="In Vocational school started learning Javascript"
                             index={8}
                             Icon={<UilPlus  />}
@@ -101,8 +102,8 @@ const Timeline = () => {
                         />
                         <TimelineData
                             YearFrom="2023"
-                            Subject="Started learning Laravel"
-                            Description="Started leaning Laravel at DeskTime"
+                            Subject="Laravel"
+                            Description="Started learning the Larvel framework at DeskTime"
                             index={11}
                             Icon={<UilPlus  />}
                         />
@@ -111,12 +112,12 @@ const Timeline = () => {
                             Subject="Finished Vocational School VTDT"
                             Description="Graduated Vocational School and got a Vocational Diploma in Computer Science"
                             index={12}
-                            Icon={<UilPlus  />}
+                            Icon={<UilGraduationCap  />}
                         />
                         <TimelineData
                             YearFrom="2023"
-                            Subject="Started learning React"
-                            Description="Started learning React for personal use"
+                            Subject="React"
+                            Description="Started learning the React framework for personal use"
                             index={13}
                             Icon={<UilPlus  />}
                         />

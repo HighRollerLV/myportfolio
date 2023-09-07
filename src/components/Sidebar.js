@@ -1,27 +1,39 @@
-import React from 'react';
+import React, {useState} from 'react';
 import SectionTitle from "./SectionTitle";
 import SidebarItem from "./SidebarItem";
 import {
     UilBookAlt,
     UilBracketsCurly,
-    UilEstate, UilFacebook,
+    UilEstate,
+    UilFacebook,
     UilFlask,
-    UilHourglass, UilInstagram, UilLinkedin, UilTwitter,
+    UilHourglass,
+    UilInstagram,
+    UilLinkedin,
+    UilTwitter,
     UilUser,
     UilUserSquare
 } from "@iconscout/react-unicons";
+import HamburgerMenu from "./Hamburger";
 
 const Sidebar = () => {
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
     return (
-        <div className="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
-            <div className="flex items-center justify-center h-14 border-b">
-                <img src="/media/logoX.jpg" alt="Logo" className="w-18 h-18 object-contain" />
+        <div className="relative">
+            {/* Display the HamburgerMenu button only on smaller screens */}
+            <div className="lg:hidden">
+                <HamburgerMenu isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen}/>
             </div>
-            <div className="overflow-y-auto overflow-x-hidden flex-grow">
+            <div
+                // Control visibility based on screen size
+                className={`fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r ${isSidebarOpen ? 'block' : 'hidden'} lg:block`}
+            >
+                {/* Sidebar content */}
                 <ul className="flex flex-col py-4 space-y-1">
                     {/* Main Section */}
-                    <SectionTitle sectionName="Main" />
-                    <SidebarItem icon={<UilEstate />} text="Home" to="/" />
+                    <SectionTitle sectionName="Main"/>
+                    <SidebarItem icon={<UilEstate/>} text="Home" to="/"/>
                     <SidebarItem icon={<UilUser/>} text="About" to="/about"/>
                     <SidebarItem icon={<UilBookAlt/>} text="Education" to="/education"/>
 

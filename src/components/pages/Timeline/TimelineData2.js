@@ -1,12 +1,11 @@
 import React from 'react';
 
 function TimelineData2({YearFrom, YearTo, Subject, Description, isEven, Icon}) {
-    const circlePositionClass = isEven ? 'ml-auto' : 'mr-auto';
 
     return (
-        <div className={`ml-[30.4rem] flex items-center gap-5 z-10 ${isEven ? 'flex-row-reverse' : 'flex-row'}`}>
+        <div className="flex items-center gap-5 z-10">
             {/* Circle */}
-            <div className={`flex justify-center items-center ${circlePositionClass}`}>
+            <div className="flex justify-center items-center">
                 <div className="w-10 h-10 bg-gray-700 rounded-full flex justify-center items-center">
                     <span className="text-slate-500">{Icon}</span>
                 </div>
