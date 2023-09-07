@@ -13,10 +13,10 @@ import Contact from './components/pages/Contact';
 const App = () => {
     return (
         <Router>
-            <div className="flex flex-col md:flex-row min-h-screen w-screen flex-wrap">
+            <div className="flex flex-col md:flex-row min-h-screen w-screen">
                 <Sidebar/>
 
-                <main className="flex-1 ml-64 bg-gray-50 text-gray-800">
+                <main className="flex-1 ml-0 lg:ml-64 bg-gray-50 text-gray-800">
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about" element={<About/>}/>

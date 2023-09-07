@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
@@ -34,6 +33,9 @@ module.exports = {
                         },
                     ],
                 },
+            },
+            transitionDuration: {
+                '5000': '5000ms',
             },
         },
     },
