@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TimelineData({ YearFrom, YearTo, Subject, Description, Icon }) {
+function TimelineData({YearFrom, YearTo, Subject, Description, Icon}) {
     return (
         <div className="flex items-center gap-5 z-10 pr-[18.8rem]">
             {/* Year and Content */}

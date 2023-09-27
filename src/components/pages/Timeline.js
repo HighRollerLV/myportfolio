@@ -1,14 +1,7 @@
 import React from 'react';
 import TimelineData from "./Timeline/TimelineData";
 import TimelineData2 from "./Timeline/TimelineData2";
-import {
-    UilRocket,
-    UilUniversity,
-    UilPen,
-    UilStar,
-    UilPlus,
-    UilGraduationCap,
-} from '@iconscout/react-unicons';
+import {UilGraduationCap, UilPen, UilPlus, UilRocket, UilStar, UilUniversity,} from '@iconscout/react-unicons';
 
 
 const Timeline = () => {
@@ -30,14 +23,14 @@ const Timeline = () => {
                             Subject="Programming Courses"
                             Description="Started going to programming courses. Basics in HTML/CSS"
                             index={1}
-                            Icon={<UilRocket />}
+                            Icon={<UilRocket/>}
                         />
                         <TimelineData2
                             YearFrom="2019"
                             Subject="Finished Middle School"
                             Description="Finished Middle School in DACVĢ"
                             index={2}
-                            Icon={<UilGraduationCap />}
+                            Icon={<UilGraduationCap/>}
                         />
                         <TimelineData
                             YearFrom="2019"
@@ -45,21 +38,21 @@ const Timeline = () => {
                             Subject="VTDT Vocational School"
                             Description="Started going to a vocation school studying Computer Science"
                             index={3}
-                            Icon={<UilUniversity />}
+                            Icon={<UilUniversity/>}
                         />
                         <TimelineData2
                             YearFrom="2019"
                             Subject="Started learning C++"
                             Description="In Vocational school started learning C++"
                             index={4}
-                            Icon={<UilPlus />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData
                             YearFrom="2020"
                             Subject="Started learning PHP and MySQL"
                             Description="In Vocational school started learning PHP and MySQL"
                             index={5}
-                            Icon={<UilPlus  />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData2
                             YearFrom="06/2022"
@@ -67,21 +60,21 @@ const Timeline = () => {
                             Subject="Internship at Latvenergo"
                             Description="Started internship at Latvenergo as a IT Specialist"
                             index={6}
-                            Icon={<UilPen />}
+                            Icon={<UilPen/>}
                         />
                         <TimelineData
                             YearFrom="2022"
                             Subject="TailwindCSS"
                             Description="Started learning TailwindCSS for personal use"
                             index={7}
-                            Icon={<UilPlus  />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData2
                             YearFrom="2022"
                             Subject="Javascript"
                             Description="In Vocational school started learning Javascript"
                             index={8}
-                            Icon={<UilPlus  />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData
                             YearFrom="09/2022"
@@ -90,7 +83,7 @@ const Timeline = () => {
                             Description="Created a Graduation project that focused on MMA and included - Databases,
                             Api, Javascript, PHP and TailwindCSS"
                             index={9}
-                            Icon={<UilStar />}
+                            Icon={<UilStar/>}
                         />
                         <TimelineData2
                             YearFrom="01/2023"
@@ -98,28 +91,28 @@ const Timeline = () => {
                             Subject="Internship at DeskTime"
                             Description="Started internship at DeskTime as a Developer"
                             index={10}
-                            Icon={<UilPen />}
+                            Icon={<UilPen/>}
                         />
                         <TimelineData
                             YearFrom="2023"
                             Subject="Laravel"
                             Description="Started learning the Larvel framework at DeskTime"
                             index={11}
-                            Icon={<UilPlus  />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData2
                             YearFrom="2023"
                             Subject="Finished Vocational School VTDT"
                             Description="Graduated Vocational School and got a Vocational Diploma in Computer Science"
                             index={12}
-                            Icon={<UilGraduationCap  />}
+                            Icon={<UilGraduationCap/>}
                         />
                         <TimelineData
                             YearFrom="2023"
                             Subject="React"
                             Description="Started learning the React framework for personal use"
                             index={13}
-                            Icon={<UilPlus  />}
+                            Icon={<UilPlus/>}
                         />
                         <TimelineData2
                             YearFrom="09/2023"
@@ -127,7 +120,7 @@ const Timeline = () => {
                             Subject="Started VA University"
                             Description="Enrolled in Vidzmes Augstskola (University)"
                             index={14}
-                            Icon={<UilUniversity />}
+                            Icon={<UilUniversity/>}
                         />
                     </div>
                 </div>

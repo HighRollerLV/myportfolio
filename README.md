@@ -11,14 +11,13 @@
 - [x] Create a media folder for images and videos
 - [x] Create a components folder for components
 - [x] Create a pages folder for pages
-- [ ] Make the page responsive
-- [ ] Include a `favicon.ico` file
-- [ ] Include resume
-- [ ] Adjust and create new styles inside `tailwind.config.js`
+- [x] Make the page responsive
+- [x] Include a `favicon.ico` file
+- [x] Adjust and create new styles inside `tailwind.config.js`
 - #### Main tasks  -
   - #### Sidebar Nav-bar  -
     - [x] Create a Sidebar Navigation
-    - [ ] Create a Sidebar Navigation for all devices
+    - [x] Create a Sidebar Navigation for all devices
     - #### Sidebar Contents  - 
         - [x] Create main sections
         - [x] Create sub-sections
@@ -42,17 +41,12 @@
           - [x] Facebook
           - [x] Twitter
   - #### Pages  -
-  - [ ] Create Pages for each section
+  - [x] Create Pages for each section
     - #### Pages  -
     - [x] Home
     - [x] About
     - [x] Education
     - [x] Projects
     - [x] Experience
-    - [ ] Timeline
+    - [x] Timeline
     - [x] Contact
-- ### Final  -
-  - [ ] Send to Lapsins
-  - [ ] Turn the project/githbu repository to public
-  - [ ] Add the project to my LinkedIn profile
-  - [ ] Add the project to my resume
