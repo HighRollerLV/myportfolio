@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <div className="min-h-screen bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate p-8">
             <h1 className="text-3xl md:text-4xl font-semibold text-white mb-6">Experience</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 <ExperienceData
                     CompanyImage="/media/latvenergo.jpg"
                     CompanyNameALT="Latvenergo"
