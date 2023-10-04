@@ -6,13 +6,14 @@ module.exports = {
         extend: {
             screens: {
               'xs': '425px',
-              'xxs': '320px',
+              'xxs': '425px',
             },
             height: {
                 '18': '4.5rem',
             },
             width: {
                 '18': '4.5rem',
+                '500': '50rem',
             },
             keyframes: {
                 AnimationName: {

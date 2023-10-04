@@ -10,8 +10,8 @@ import Skills from "./AboutContent/Skills";
 const About = () => {
     return (
         <div
-            className="min-h-screen bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate flex flex-col items-center justify-center">
-            <div className="grid-cols-1 sm:w-full md:w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+            className="min-h-screen bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate flex flex-col items-center justify-start lg:justify-center">
+            <div className="grid-cols-1 sm:w-full md:w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 lg:pt-4">
                 <MainBox/>
             </div>
             <div className="mt-8 max-w-5xl mx-auto">
