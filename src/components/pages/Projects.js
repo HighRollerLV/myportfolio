@@ -30,18 +30,6 @@ const Projects = () => {
                             view of my capabilities."
                         ProjectGoal="Showcase a comprehensive overview of my capabilities."
                     />
-                    <ProjectData
-                        ProjectImage="/media/portfolio.JPG"
-                        AltImage="portfolio"
-                        ProjectTitle="Portfolio"
-                        ProjectDesc="I decided to create a portfolio for several compelling reasons.
-                            First and foremost, it serves as a tangible representation of my journey and growth
-                            in my chosen field. As I've progressed in my career, I've amassed a diverse collection
-                            of projects, experiences, and skills. This portfolio allows me to curate and showcase
-                            the best of what I've accomplished, giving others a comprehensive
-                            view of my capabilities."
-                        ProjectGoal="Showcase a comprehensive overview of my capabilities."
-                    />
                 </div>
             </div>
         </div>
