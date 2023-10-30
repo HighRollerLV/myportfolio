@@ -11,7 +11,7 @@ function Contacts() {
             <SuccessMessage/>
             <EmailErrorMessage/>
             <InputErrorMessage/>
-            <div className="flex flex-col gap-20 h-screen w-full lg:w-3/5">
+            <div className="flex flex-col gap-20 h-screen w-full lg:w-6/12">
                 <div>
                     <h1 className="text-3xl font-semibold text-slate-100 pt-10">Contact Me</h1>
                 </div>
