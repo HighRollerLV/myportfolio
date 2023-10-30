@@ -57,14 +57,14 @@ function ContactForm() {
     }, [showSuccessMessage, showEmailError, showInputError]);
 
     return (
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-6 w-full">
             <input
                 type="text"
                 name="name"
                 value={form.name}
                 onChange={handleChange}
                 placeholder="Your Name"
-                className="w-full px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
+                className="col-span-2 w-3/4 px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
             />
             <input
                 type="email"
@@ -72,7 +72,7 @@ function ContactForm() {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="Your Email"
-                className="w-full px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
+                className="col-span-2 w-3/4 px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
             />
             <textarea
                 name="message"
@@ -80,11 +80,11 @@ function ContactForm() {
                 onChange={handleChange}
                 placeholder="Your Message"
                 rows="10"
-                className="w-full px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
+                className="col-span-2 w-3/4 px-4 py-2 text-lg placeholder-gray-500 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
             />
             <button
                 type="submit"
-                className="w-full px-4 py-2 text-lg text-white bg-slate-500 rounded-lg hover-bg-slate-600 focus:outline-none"
+                className="col-span-2 w-3/4 px-4 py-2 text-lg text-white bg-slate-500 rounded-lg hover-bg-slate-600 focus:outline-none"
             >
                 Send Message
             </button>

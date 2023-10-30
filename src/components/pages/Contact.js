@@ -7,7 +7,7 @@ import InputErrorMessage from './Contacts/InputErrorMessage';
 function Contacts() {
     return (
         <div
-            className="bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate min-h-screen relative">
+            className="bg-gradient-to-r from-slate-500 via-stone-400 to-gray-700 background-animate min-h-screen py-8 px-4 sm:px-6 lg:px-8">
             <SuccessMessage/>
             <EmailErrorMessage/>
             <InputErrorMessage/>
