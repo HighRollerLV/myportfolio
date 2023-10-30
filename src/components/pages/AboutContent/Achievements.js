@@ -1,4 +1,6 @@
 import React from 'react';
+import {GiDiploma} from "react-icons/gi";
+import {PiStudentBold} from "react-icons/pi";
 
 const Achievements = () => {
     return (
@@ -9,9 +11,10 @@ const Achievements = () => {
                 </h3>
                 <div className="grid grid-cols-1">
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-                        <li>Vocational Diploma in Computer Science</li>
-                        <li>Finished 2 internships - Latvenergo and DeskTime</li>
-                        <li>Enrolled in a University studying Computer Science</li>
+                        <p className="flex flex-row items-center text-center justify-start gap-2">
+                            <GiDiploma/> Vocational Diploma in Computer Science</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2">
+                            <PiStudentBold/> Finished 2 internships - Latvenergo and DeskTime</p>
                     </ul>
                 </div>
             </div>

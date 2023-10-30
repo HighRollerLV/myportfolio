@@ -15,10 +15,6 @@ function Education() {
                                    SchoolName="Vidzemes Tehnoloģiju un Dizaina tehnikums"
                                    EducationLevel="Vocational Degree" StartDate="2019" EndDate="2023"
                                    Study="Computer Science"/>
-                    <EducationData GraduationImage="/media/mysteryMan.png"
-                                   SchoolName="Vidzemes Augstskola (University)"
-                                   EducationLevel="Bachelor's Degree" StartDate="2023"
-                                   EndDate="2027" Study="Computer Science"/>
                 </div>
             </div>
         </div>

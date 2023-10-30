@@ -1,4 +1,8 @@
 import React from 'react';
+import {GiPistolGun, GiBoatFishing, GiHiking, GiBoxingGloveSurprise} from "react-icons/gi";
+import { MdHistoryEdu, MdTravelExplore } from "react-icons/md";
+import { GoProjectSymlink } from "react-icons/go";
+import { CgGym } from "react-icons/cg";
 
 const Hobbies = () => {
     return (
@@ -9,16 +13,16 @@ const Hobbies = () => {
                 </h3>
                 <div className="grid grid-cols-2">
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-                        <li>Hunting</li>
-                        <li>Fishing</li>
-                        <li>Weightlifting/Gym</li>
-                        <li>Boxing/MMA</li>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><GiPistolGun/> Hunting</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><GiBoatFishing/> Fishing</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><CgGym/> Weightlifting/Gym</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><GiBoxingGloveSurprise/> Boxing/MMA</p>
                     </ul>
                     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-                        <li>History Buffing</li>
-                        <li>Project Development</li>
-                        <li>Traveling</li>
-                        <li>Hiking</li>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><MdHistoryEdu/> History Buffing</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><GoProjectSymlink/> Project Development</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><MdTravelExplore/> Traveling</p>
+                        <p className="flex flex-row items-center text-center justify-start gap-2"><GiHiking/> Hiking</p>
                     </ul>
                 </div>
             </div>
