@@ -29,6 +29,26 @@ const Projects = () => {
                             the best of what I've accomplished, giving others a comprehensive
                             view of my capabilities."
                         ProjectGoal="Showcase a comprehensive overview of my capabilities."
+                        AppLink="https://ralfsportfolio.pages.dev/"
+                    />
+                    <ProjectData
+                        ProjectImage="/media/silmezs.png"
+                        AltImage="silmezs"
+                        ProjectTitle="Silmežs"
+                        ProjectDesc="Silmežs is a project build. This project was built for a company as a new update to their old website.
+                        I freelanced to get this opprotunity to create this website with majestic and cool features."
+                        ProjectGoal="Create an updated version of the old website."
+                        AppLink="https://silmezs.pages.dev/"
+                    />
+                    <ProjectData
+                        ProjectImage="/media/worbx.png"
+                        AltImage="worbx"
+                        ProjectTitle="Worbx"
+                        ProjectDesc="Worbx is an up and coming company for marketing. The main goal was to create a website to
+                        introduce the companies founders and workers for a more openning and fourthcoming introduction. Since the company did
+                        not develop the website went unfinished."
+                        ProjectGoal="Create a website for an up and coming company."
+                        AppLink="https://worbex.pages.dev/"
                     />
                 </div>
             </div>

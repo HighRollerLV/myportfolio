@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
-const ProjectData = ({ ProjectImage, AltImage, ProjectTitle, ProjectDesc, ProjectGoal }) => {
+const ProjectData = ({ ProjectImage, AltImage, ProjectTitle, ProjectDesc, ProjectGoal, AppLink }) => {
     const [showFullDescription, setShowFullDescription] = useState(false);
 
     const toggleDescription = () => {
@@ -21,7 +22,10 @@ const ProjectData = ({ ProjectImage, AltImage, ProjectTitle, ProjectDesc, Projec
                         {showFullDescription ? " Read less" : " Read more"}
                     </span>
                 </p>
-                <p className="text-blue-500 font-semibold">Goal: {ProjectGoal}</p>
+                <p className="text-blue-500 font-semibold mb-4">Goal: {ProjectGoal}</p>
+                <a href={AppLink} className="text-blue-500 cursor-pointer">
+                    <FaExternalLinkAlt className="text-xl inline-block" />
+                </a>
             </div>
         </div>
     );

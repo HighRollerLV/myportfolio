@@ -1,7 +1,11 @@
 import React from 'react';
 import TimelineData from "./Timeline/TimelineData";
 import TimelineData2 from "./Timeline/TimelineData2";
-import {UilGraduationCap, UilPen, UilPlus, UilRocket, UilStar, UilUniversity,} from '@iconscout/react-unicons';
+import {UilGraduationCap, UilPen, UilRocket, UilStar, UilUniversity,} from '@iconscout/react-unicons';
+import {FaPhp, FaReact, FaUnity} from "react-icons/fa";
+import {SiReact, SiTailwindcss, SiCplusplus} from "react-icons/si";
+import {TbBrandLaravel} from "react-icons/tb";
+import {IoLogoJavascript} from "react-icons/io";
 
 
 const Timeline = () => {
@@ -45,14 +49,14 @@ const Timeline = () => {
                             Subject="Started learning C++"
                             Description="In Vocational school started learning C++"
                             index={4}
-                            Icon={<UilPlus/>}
+                            Icon={<SiCplusplus />}
                         />
                         <TimelineData
                             YearFrom="2020"
                             Subject="Started learning PHP and MySQL"
                             Description="In Vocational school started learning PHP and MySQL"
                             index={5}
-                            Icon={<UilPlus/>}
+                            Icon={<FaPhp />}
                         />
                         <TimelineData2
                             YearFrom="06/2022"
@@ -67,14 +71,14 @@ const Timeline = () => {
                             Subject="TailwindCSS"
                             Description="Started learning TailwindCSS for personal use"
                             index={7}
-                            Icon={<UilPlus/>}
+                            Icon={<SiTailwindcss />}
                         />
                         <TimelineData2
                             YearFrom="2022"
                             Subject="Javascript"
                             Description="In Vocational school started learning Javascript"
                             index={8}
-                            Icon={<UilPlus/>}
+                            Icon={<IoLogoJavascript />}
                         />
                         <TimelineData
                             YearFrom="09/2022"
@@ -98,7 +102,7 @@ const Timeline = () => {
                             Subject="Laravel"
                             Description="Started learning the Larvel framework at DeskTime"
                             index={11}
-                            Icon={<UilPlus/>}
+                            Icon={<TbBrandLaravel />}
                         />
                         <TimelineData2
                             YearFrom="2023"
@@ -112,15 +116,21 @@ const Timeline = () => {
                             Subject="React"
                             Description="Started learning the React framework for personal use"
                             index={13}
-                            Icon={<UilPlus/>}
+                            Icon={<FaReact />}
                         />
                         <TimelineData2
-                            YearFrom="09/2023"
-                            YearTo="- 2027"
-                            Subject="Started VA University"
-                            Description="Enrolled in Vidzmes Augstskola (University)"
+                            YearFrom="2024"
+                            Subject="React Native"
+                            Description="Started Learning React Native for a project"
                             index={14}
-                            Icon={<UilUniversity/>}
+                            Icon={<SiReact />}
+                        />
+                        <TimelineData
+                            YearFrom="2024"
+                            Subject="Unity and C#"
+                            Description="Started learning Unity and C# to develop a project"
+                            index={15}
+                            Icon={<FaUnity />}
                         />
                     </div>
                 </div>

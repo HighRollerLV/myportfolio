@@ -15,6 +15,7 @@ import {
     UilUserSquare
 } from "@iconscout/react-unicons";
 import HamburgerMenu from "./Hamburger";
+import {FaGithub} from "react-icons/fa";
 
 const Sidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -55,6 +56,7 @@ const Sidebar = () => {
                     <SidebarItem icon={<UilFacebook/>} text="Facebook"
                                  link="https://www.facebook.com/ralfs.dambitis"/>
                     <SidebarItem icon={<UilTwitter/>} text="Twitter" link="https://twitter.com/RalfsDambitis"/>
+                    <SidebarItem icon={<FaGithub className={"text-2xl"}/>} text="GitHub" link="https://github.com/HighRollerLV"/>
                 </ul>
             </div>
         </div>
