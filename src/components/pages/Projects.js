@@ -50,6 +50,17 @@ const Projects = () => {
                         ProjectGoal="Create a website for an up and coming company."
                         AppLink="https://worbex.pages.dev/"
                     />
+                    <ProjectData
+                        ProjectImage="/media/tolmetgrabem.png"
+                        AltImage="tolmetgrabem"
+                        ProjectTitle="Tolmet GrabEm"
+                        ProjectDesc="Tolmet GrabEm is an interesting mobile game for a company called Tolmet. The games key features include a fucsh
+                        machine that a player controls and falling cars that the player needs to catch. Each car is a point added to the scoreboard
+                        but if the car is not caught then a life is removed from the players hearts which in total there are 3. The game is fun, fast
+                        paced and very addicting. The further you get the faster the cars start falling. How long can you survive?"
+                        ProjectGoal="Create an interactive mobile game."
+                        AppLink="https://play.google.com/store/apps/details?id=com.tolmetsvidzeme.grabem"
+                    />
                 </div>
             </div>
         </div>
